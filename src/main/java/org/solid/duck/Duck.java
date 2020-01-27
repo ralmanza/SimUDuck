@@ -10,5 +10,9 @@ public abstract class Duck {
         System.out.println("Duck swim");
     }
 
+    public void fly() {
+        System.out.printf("Duck fly");
+    }
+
     public abstract void display();
 }
