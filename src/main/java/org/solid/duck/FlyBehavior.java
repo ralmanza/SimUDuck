@@ -1,6 +1,6 @@
 package org.solid.duck;
 
-public interface Flyable {
+public interface FlyBehavior {
 
     void fly();
 }

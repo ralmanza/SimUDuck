@@ -9,3 +9,7 @@ El codigo no es flexible a añadir nuevos tipos de Patos.
 #### Face 3
 En esta face, Se puede notar que el uso de Interfaces ayuda a que la clase Duck solo implemente el comportamiento comun y delega a las clases especializadas la tarea de implementar el comportamiento que pueda tener cada tipo de Pato.
 Pero tambien se puede ver que esta solucion causa que se tenga codigo repetido en diferentes clases especializadas.
+
+#### Face 4
+En esta face, Se puede notar que la encapsulacion de el comportamiento variable y mantener la clase Pato con el comportamiento comun hace que la clase sea extendible para nuevos tipos de Patos, 
+pero todavia se puede ver un que existe un alto nivel de dependecia entre las clases especializada y los comportamientos debido a que se esta creando instancias del comportamiento dentro del constructor de la clase especializada.    

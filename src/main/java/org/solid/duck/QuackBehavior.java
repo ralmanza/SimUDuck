@@ -1,6 +1,6 @@
 package org.solid.duck;
 
-interface Quackable {
+interface QuackBehavior {
 
     void quack();
 }
