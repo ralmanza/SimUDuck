@@ -1,6 +1,6 @@
 package org.solid.duck;
 
-public class RubberDuck extends Duck {
+public class RubberDuck extends Duck implements Quackable {
 
     @Override
     public void display() {
