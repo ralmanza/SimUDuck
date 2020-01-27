@@ -2,9 +2,9 @@ package org.solid.duck;
 
 public abstract class Duck {
 
-    FlyBehavior flyBehavior;
+    private FlyBehavior flyBehavior;
 
-    QuackBehavior quackBehavior;
+    private QuackBehavior quackBehavior;
 
     public void swim() {
         System.out.println("Duck swim");
@@ -19,4 +19,12 @@ public abstract class Duck {
     }
 
     public abstract void display();
+
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
+    }
 }

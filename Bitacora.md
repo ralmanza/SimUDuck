@@ -12,4 +12,5 @@ Pero tambien se puede ver que esta solucion causa que se tenga codigo repetido e
 
 #### Face 4
 En esta face, Se puede notar que la encapsulacion de el comportamiento variable y mantener la clase Pato con el comportamiento comun hace que la clase sea extendible para nuevos tipos de Patos, 
-pero todavia se puede ver un que existe un alto nivel de dependecia entre las clases especializada y los comportamientos debido a que se esta creando instancias del comportamiento dentro del constructor de la clase especializada.    
+pero todavia se puede ver un que existe un alto nivel de dependecia entre las clases especializada y los comportamientos debido a que se esta creando instancias del comportamiento dentro del constructor de la clase especializada. 
+Y por otro lado en la clase Duck las propiedades de comportamiento estan visibles.     
